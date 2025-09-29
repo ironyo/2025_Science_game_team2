@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 160e0c8c9ca4c114199bd09257abccab, type: 3}
   m_Name: Quiz01
   m_EditorClassIdentifier: 
-  _quizTex: 
+  _quizTex: hihis
   _quizTexList:
-  - 
-  - 
-  - 
+  - hi
+  - hihis
+  - hihi
   _collectNum: 2
