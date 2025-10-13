@@ -518,6 +518,7 @@ MonoBehaviour:
   quizSOs:
   - {fileID: 11400000, guid: 0e71c01b98f19cf458099c04c34079fd, type: 2}
   - {fileID: 11400000, guid: bd507a30bb4f2744585740c3fa83bbd6, type: 2}
+  - {fileID: 11400000, guid: ef30cf57f4f6b05428b69def6a9714b3, type: 2}
   quizTexs:
   - {fileID: 2047624970}
   - {fileID: 360104283}
@@ -689,7 +690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC774\uAC74 \uBB38\uC81C\uC57C"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
   m_sharedMaterial: {fileID: -2589752985393904090, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
@@ -825,7 +826,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: it's problome
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
   m_sharedMaterial: {fileID: -2589752985393904090, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
@@ -1979,7 +1980,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: it's problome
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
   m_sharedMaterial: {fileID: -2589752985393904090, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
@@ -2249,12 +2250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'What is the problem......
-
-    i don''t know net yey i;m crazy
-
-    woo
-    woo'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
   m_sharedMaterial: {fileID: -2589752985393904090, guid: 6625d46c4d48fd04daba8190584c12f6, type: 2}
