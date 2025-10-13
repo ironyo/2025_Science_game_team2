@@ -6,9 +6,9 @@ public abstract class item : MonoBehaviour
     [SerializeField]private float currentTime = 0f;
     protected virtual void Update()
     {
-        transform.Translate(Vector2.down * (3f * Time.deltaTime));
+        transform.Translate(Vector2.left * (3f * Time.deltaTime));
         currentTime += Time.deltaTime;
-        if (currentTime >= 4.5f)
+        if (currentTime >= 6.3f)
         {
             gameObject.SetActive(false);
             currentTime = 0f;

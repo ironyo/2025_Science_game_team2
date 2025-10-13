@@ -9,11 +9,11 @@ public class ItemPoolManager : MonoBehaviour
      [SerializeField] private GameObject elecItemPrefab;
      [SerializeField]private List<Transform> SpawnPoints;
      private GameObject[] elecItemPool;
-     private int electricPoolSize = 3;
+     private int electricPoolSize = 4;
      
      [SerializeField] private GameObject bombItemPrefab;
      private GameObject[] bombItemPool;
-     private int bombPoolSize = 3;
+     private int bombPoolSize = 4;
 
      private void Start()
      {
