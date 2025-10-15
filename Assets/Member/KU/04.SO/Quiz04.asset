@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 160e0c8c9ca4c114199bd09257abccab, type: 3}
-  m_Name: Quiz03
+  m_Name: Quiz04
   m_EditorClassIdentifier: 
-  _quizTex: "\uC804\uC555\uC774 12 V\uC774\uACE0 \uC800\uD56D\uC774 6 \u03A9\uC778
-    \uD68C\uB85C\uC5D0 \uD750\uB974\uB294 \uC804\uB958\uB294 \uC5BC\uB9C8\uC778\uAC00?"
+  _quizTex: "\uAC19\uC740 \uC804\uC555\uC5D0\uC11C \uC800\uD56D\uC774 \uCEE4\uC9C8\uC218\uB85D
+    \uC804\uB958\uB294 \uC5B4\uB5BB\uAC8C \uB418\uB294\uAC00?"
   _quizTexList:
-  - 1A
-  - 2A
-  - 3A
-  _collectNum: 2
+  - "\uCEE4\uC9C4\uB2E4"
+  - "\uBCC0\uD558\uC9C0 \uC54A\uB294\uB2E4"
+  - "\uC791\uC544\uC9C4\uB2E4"
+  _collectNum: 3

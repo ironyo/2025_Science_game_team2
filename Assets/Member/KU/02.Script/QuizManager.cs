@@ -28,8 +28,8 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            MessageUp(wrongTex, false);
             QuizMake();
+            MessageUp(wrongTex, false);
         }
     }
 
@@ -57,9 +57,6 @@ public class QuizManager : MonoBehaviour
     }
     private void QuizMake()
     {
-        if (isRoad)
-            return;
-
         realSo = quizSOs[Random.Range(0, quizSOs.Count)];
         quizTexs[0].text = realSo._quizTex;
         for (int i = 1; i < quizTexs.Count; i++)
