@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 160e0c8c9ca4c114199bd09257abccab, type: 3}
   m_Name: Quiz01
   m_EditorClassIdentifier: 
-  _quizTex: "\uC548\uB155\u314E"
+  _quizTex: "\uC800\uD56D\uAC12\uC774 \uC77C\uC815\uD560 \uB54C \uC800\uD56D \uC591\uB2E8\uC758
+    \uC804\uC555\uC774 \uCEE4\uC9C8\uC218\uB85D \uC800\uD56D\uC5D0 \uD750\uB974\uB294
+    \uC804\uB958\uC758 \uC138\uAE30\uAC00 \uC99D\uAC00\uD558\uB294\uB370, \uC774\uB97C
+    \uBB34\uC5C7\uC774\uB77C \uD558\uB294\uAC00"
   _quizTexList:
-  - "\uC548\uB155"
-  - "\uC548\uB155\u314E"
-  - "\uC548\uB155\uD574"
+  - "\uD798\uC758 \uBC94\uCE59"
+  - "\uC634\uC758 \uBC95\uCE59"
+  - "\uC18C\uBE44 \uBC95\uCE59"
   _collectNum: 2

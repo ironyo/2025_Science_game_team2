@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160e0c8c9ca4c114199bd09257abccab, type: 3}
+  m_Name: Quiz05
+  m_EditorClassIdentifier: 
+  _quizTex: "\uC5B4\uB5A4 \uC804\uAE30 \uAE30\uAD6C\uC758 \uC815\uACA9 \uC804\uB958\uAC00
+    3 A\uC77C \uB54C, \uC774 \uC758\uBBF8\uB85C \uC633\uC740 \uAC83\uC740?"
+  _quizTexList:
+  - "\uD56D\uC0C1 3 A \uC774\uD558\uC758 \uC804\uB958\uB9CC \uD758\uB7EC\uC57C \uD55C\uB2E4."
+  - "3 A\uBCF4\uB2E4 \uD070 \uC804\uB958\uAC00 \uD758\uB7EC\uC57C \uC815\uC0C1 \uC791\uB3D9\uD55C\uB2E4."
+  - "3 A\uAC00 \uB118\uC9C0 \uC54A\uC73C\uBA74 \uC791\uB3D9\uD558\uC9C0 \uC54A\uB294\uB2E4."
+  _collectNum: 1
