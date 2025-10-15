@@ -15,13 +15,13 @@ public abstract class item : MonoBehaviour
         }
     }
 
-    public abstract void GetItem();
+    public abstract void GetItem(BulbController bulbController);
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            GetItem();
+            GetItem(collision.gameObject.GetComponentInParent<BulbController>());
             gameObject.SetActive(false);
         }
     }

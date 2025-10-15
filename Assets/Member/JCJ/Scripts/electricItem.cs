@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class electricItem : item
 {
-    public override void GetItem()
+    public QuizManager quizManager;
+    public override void GetItem(BulbController bulbController)
     {
-        Debug.Log("전기를 얻음");
+        quizManager.QuizStart();
     }
 }

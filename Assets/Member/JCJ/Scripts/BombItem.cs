@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BombItem : item
 {
-    public override void GetItem()
+    public override void GetItem(BulbController bulbController)
     {
-        Debug.Log("악 폭탄이야");
+        bulbController.SubtractTotalPower(30);
     }
 }

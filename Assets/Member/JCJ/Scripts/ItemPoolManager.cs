@@ -8,6 +8,7 @@ public class ItemPoolManager : MonoBehaviour
 {
      [SerializeField] private GameObject elecItemPrefab;
      [SerializeField]private List<Transform> SpawnPoints;
+     [SerializeField] private QuizManager _quizManager;
      private GameObject[] elecItemPool;
      private int electricPoolSize = 4;
      
@@ -46,6 +47,7 @@ public class ItemPoolManager : MonoBehaviour
                          if (!elecItemPool[i].activeSelf)
                          {
                               elecItemPool[i].transform.position = SpawnPoints[Random.Range(0, SpawnPoints.Count)].position;
+                              elecItemPool[i].gameObject.GetComponent<electricItem>().quizManager = _quizManager;
                               elecItemPool[i].SetActive(true);
                               break;
                          }

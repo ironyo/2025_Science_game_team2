@@ -10,6 +10,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] GameObject quizGroup;
     [SerializeField] TextMeshProUGUI wrongTex;
     [SerializeField] TextMeshProUGUI collectTex;
+    [SerializeField] BulbController bulbController;
 
     private QuizSO realSo;
 
@@ -24,13 +25,16 @@ public class QuizManager : MonoBehaviour
     {
         if(answer == realSo._collectNum)
         {
+            bulbController.AddTotalPower(30);
             MessageUp(collectTex, true);
             Time.timeScale = 1.0f;
         }
         else
         {
             QuizMake();
+            bulbController.SubtractTotalPower(30);
             MessageUp(wrongTex, false);
+            Time.timeScale = 1.0f;
         }
     }
 
@@ -48,7 +52,7 @@ public class QuizManager : MonoBehaviour
         seq.AppendInterval(0.5f);
         seq.Append(tex.DOFade(0, 0.2f).OnComplete(() =>
         {
-            if(isCollect)
+            
                 quizGroup.SetActive(false);
             tex.gameObject.SetActive(false);
             isRoad = false;
