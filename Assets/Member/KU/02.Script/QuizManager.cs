@@ -53,6 +53,7 @@ public class QuizManager : MonoBehaviour
             tex.gameObject.SetActive(false);
             isRoad = false;
         }));
+        seq.SetUpdate(true);
 
     }
     private void QuizMake()
