@@ -25,6 +25,7 @@ public class QuizManager : MonoBehaviour
         if(answer == realSo._collectNum)
         {
             MessageUp(collectTex, true);
+            Time.timeScale = 1.0f;
         }
         else
         {
@@ -43,7 +44,6 @@ public class QuizManager : MonoBehaviour
         Sequence seq = DOTween.Sequence();
 
         tex.gameObject.SetActive(true);
-        Time.timeScale = 1.0f;
         seq.Append(tex.DOFade(1, 0.2f));
         seq.AppendInterval(0.5f);
         seq.Append(tex.DOFade(0, 0.2f).OnComplete(() =>
